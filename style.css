@@ -1,8 +1,15 @@
+body {
+    background-color: #5c10c7;
+    color: #105bcc;
+    font-family: 'Trebuchet MS'
+    /*src: url("/fonts/trench.ttf") format("truetype"); this type technique mechanics for imported font*/
+}
+
 .sidebar {
     height: 100%;
     width: 170px;
     position: relative;
-    background-color: #5c10c7;
+    background-color: #170136;
     padding: 20px;
 }
 
