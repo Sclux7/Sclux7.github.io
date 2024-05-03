@@ -1,16 +1,27 @@
 body {
-    background-color: #5c10c7;
+    /*background-color: #5c10c7;*/
     color: #105bcc;
     font-family: 'Trebuchet MS'
     /*src: url("/fonts/trench.ttf") format("truetype"); this type technique mechanics for imported font*/
 }
 
 .sidebar {
-    height: 100%;
-    width: 170px;
-    position: relative;
+    overflow: visible;
     background-color: #170136;
-    padding: 20px;
+    color: #5c10c7;
+    margin-right: 20px;
+    margin-left: 160px;
+    margin-top: 80;
+    padding: 15px 15px 15px 10px;
+    height: 520px;
+    width: 170px;
+    left: 0;
+    top: 0;
+    position: absolute;
+    border-color: #27fc6e;
+    border-style: outset;
+    border-radius: 12px;
+    text-align: center;
 }
 
 .sidebar a {
