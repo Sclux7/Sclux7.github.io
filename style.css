@@ -24,12 +24,28 @@ body {
     text-align: center;
 }
 
+.topbox {
+    overflow: visible;
+    background-color: #170136;
+    color: #5c10c7;
+    margin-right: 20px;
+    margin-left: 390px;
+    padding: 30px 30px 30px 30px;
+    height: 30px;
+    width: 700px;
+    border-color: #27fc6e;
+    border-style: outset;
+    border-radius: 12px;
+    text-align: center;
+}
+
 .mainbox {
     overflow: visible;
     background-color: #170136;
     color: #5c10c7;
     margin-right: 20px;
     margin-left: 390px;
+    margin-top: 50px;
     padding: 30px 30px 30px 30px;
     height: 520px;
     width: 700px;
