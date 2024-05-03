@@ -5,12 +5,31 @@ body {
     /*src: url("/fonts/trench.ttf") format("truetype"); this type technique mechanics for imported font*/
 }
 
-.sidebar {
+.sidebarL {
     overflow: visible;
     background-color: #170136;
     color: #5c10c7;
     margin-right: 20px;
     margin-left: 160px;
+    margin-top: 80;
+    padding: 15px 15px 15px 10px;
+    height: 520px;
+    width: 170px;
+    left: 0;
+    top: 0;
+    position: absolute;
+    border-color: #27fc6e;
+    border-style: outset;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.sidebarR {
+    overflow: visible;
+    background-color: #170136;
+    color: #5c10c7;
+    margin-right: 20px;
+    margin-left: 1720px;
     margin-top: 80;
     padding: 15px 15px 15px 10px;
     height: 520px;
