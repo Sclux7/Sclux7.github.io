@@ -5,6 +5,6 @@ function counterSeconds(){
     const counter = document.getElementById('counter');
     counter.textContent = `${differenceSeconds}`
     setTimeout(updateC, 1000);
-}
+};
 
-counterSeconds();
+setInterval(counterSeconds(), 3000);
