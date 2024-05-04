@@ -1,8 +1,12 @@
+@font-face {
+    font-family: 'toxigenesis bd';
+    src: url('./assets/toxigenesis bd.otf') format('opentype');
+}
+
 body {
     /*background-color: #5c10c7;*/
     color: #105bcc;
-    font-family: 'Trebuchet MS'
-    /*src: url("/fonts/trench.ttf") format("truetype"); this type technique mechanics for imported font*/
+    font-family: 'toxigenesis bd'
 }
 
 .sidebarL {
