@@ -3,10 +3,12 @@
     src: url('./assets/toxigenesis bd.otf') format('opentype');
 }
 
+
 body {
     /*background-color: #5c10c7;*/
     color: #105bcc;
-    font-family: 'toxigenesis bd'
+    font-family: 'toxigenesis bd';
+    cursor: url('./assets/cursor.png'), auto;
 }
 
 .sidebarL {
