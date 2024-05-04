@@ -30,13 +30,13 @@ body {
     color: #5c10c7;
     margin-right: 20px;
     margin-left: 390px;
-    padding: 30px 30px 30px 30px;
+    padding: 10px 10px 30px 10px;
     height: 30px;
     width: 860px;
     border-color: #27fc6e;
     border-style: outset;
-    border-radius: 12px;
-    text-align: center;
+    border-radius: 22px;
+    text-align: left;
 }
 
 .mainbox {
