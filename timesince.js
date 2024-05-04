@@ -4,7 +4,7 @@ function counterSeconds(){
     const differenceSeconds = Math.floor((now - originalDate) / 1000);
     const counter = document.getElementById('counter');
     counter.textContent = `${differenceSeconds}`
-    setTimeout(updateC, 1000);
+    setTimeout(counterSeconds, 1000);
 };
 
 setInterval(counterSeconds(), 3000);
