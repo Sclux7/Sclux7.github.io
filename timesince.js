@@ -7,4 +7,4 @@ function counterSeconds(){
     setTimeout(updateC, 1000);
 }
 
-updateC();
+counterSeconds();
