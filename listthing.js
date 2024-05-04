@@ -4,7 +4,7 @@ var element = $('#target');
 
 setInterval(function(){
     (current == wlist.length) ? 0 : current;
-    var x = wlist(current);
+    var x = wlist[current];
     $('p').each(function(){
         $this.find(element).fadeOut('fast', function(){
             $(this).html(x).fadeIn();
