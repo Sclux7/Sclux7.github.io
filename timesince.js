@@ -7,4 +7,4 @@ function counterSeconds(){
     setTimeout(counterSeconds, 1000);
 };
 
-setInterval(counterSeconds(), 3000);
+counterSeconds();
