@@ -3,7 +3,7 @@ var current = 0;
 var element = $('#target');
 
 setInterval(function(){
-    current = (current === wlist.length) ? 0 : current++;
+    current = (current == wlist.length) ? 0 : current++;
     var x = wlist[current];
     $('p').each(function(){
         $(this).find(element).fadeOut('fast', function(){
