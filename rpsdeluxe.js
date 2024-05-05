@@ -5,7 +5,7 @@ var element = $('#target2');
 function rpsselection(){
     var choice = Math.floor(Math.random() * (options.length));
     document.getElementById("rpsDisplay").innerHTML = facts(choice);
-    if(rps1() == true){
+    if(rps1 == true){
         if(choice == 0){
             document.getElementById("rpsresult").innerHTML = "draw";
         }
@@ -16,7 +16,7 @@ function rpsselection(){
             document.getElementById("rpsresult").innerHTML = "You Win :D";
         }
     }
-    if(rps2() == true){
+    if(rps2 == true){
         if(choice == 1){
             document.getElementById("rpsresult").innerHTML = "draw";
         }
@@ -27,7 +27,7 @@ function rpsselection(){
             document.getElementById("rpsresult").innerHTML = "You Win :D";
         }
     }
-    if(rps3() == true){
+    if(rps3 == true){
         if(choice == 2){
             document.getElementById("rpsresult").innerHTML = "draw";
         }
