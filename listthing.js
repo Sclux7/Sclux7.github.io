@@ -3,11 +3,12 @@ var current = 0;
 var element = $('#target');
 
 setInterval(function(){
-    var x = wlist[current];
+    current = (current == wlist.length) ? 0 : current;
+    element.html(wlist[current]);
     $('p').each(function(){
         $(this).find(element).fadeOut('fast', function(){
             $(this).html(x).fadeIn();
         });
     });
-    (current == wlist.length) ? 0 : current++;
+    current++;
 }, 3000);
