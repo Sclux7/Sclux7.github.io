@@ -121,14 +121,14 @@ body {
 }
 
 .button2 {
-    background-color: #e3d0ff;
-    color: #c197fd;
-    border: 2px solid #c197fd;
+    background-color: #d7baff;
+    color: #b078fd;
+    border: 2px solid #b078fd;
 }
 
 .button2:hover {
-    background-color: #c197fd;
-    color: #e3d0ff;
+    background-color: #b078fd;
+    color: #d7baff;
 }
 
 .button3 {

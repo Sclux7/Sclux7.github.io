@@ -29,6 +29,8 @@ function rpsselection(playerSelection){
             document.getElementById("rpsresult16").innerHTML = "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣶⣤⣤⣶⣶⣿⠛⣁⣼⣿⣿⣶⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀"
             document.getElementById("rpsresult17").innerHTML = "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣦⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀"
             document.getElementById("rpsresult18").innerHTML = "⠀⠀⠀⠀⠀⠀⠀⠀⢀⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣗⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀"
+            document.getElementById("rpsresult19").innerHTML = "                                                       "
+            document.getElementById("rpsresult20").innerHTML = "                                                       "   
             ;
         }
         if(selected == 1){
@@ -48,6 +50,10 @@ function rpsselection(playerSelection){
             document.getElementById("rpsresult14").innerHTML = " ⠀⡜⢶⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣬⠟⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀"
             document.getElementById("rpsresult15").innerHTML = " ⠀⠀⠈⠹⢶⣆⡀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⣰⡾⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀"
             document.getElementById("rpsresult16").innerHTML = " ⠀⠀⠀⠀⠀⠈⠛⠕⠲⠤⢤⢀⣀⣀⣀⣀⣀⣠⣤⡤⠼⠟⠛⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀"
+            document.getElementById("rpsresult17").innerHTML = "                                                       "
+            document.getElementById("rpsresult18").innerHTML = "                                                       "
+            document.getElementById("rpsresult19").innerHTML = "                                                       "
+            document.getElementById("rpsresult20").innerHTML = "                                                       "   
             ;
         }
         if(selected == 2){
@@ -93,6 +99,8 @@ function rpsselection(playerSelection){
             document.getElementById("rpsresult16").innerHTML = "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣶⣤⣤⣶⣶⣿⠛⣁⣼⣿⣿⣶⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀"
             document.getElementById("rpsresult17").innerHTML = "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣦⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀"
             document.getElementById("rpsresult18").innerHTML = "⠀⠀⠀⠀⠀⠀⠀⠀⢀⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣗⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀"
+            document.getElementById("rpsresult19").innerHTML = "                                                       "
+            document.getElementById("rpsresult20").innerHTML = "                                                       "   
             ;
         }
         if(selected == 2){
@@ -112,6 +120,10 @@ function rpsselection(playerSelection){
             document.getElementById("rpsresult14").innerHTML = " ⠀⡜⢶⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣬⠟⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀"
             document.getElementById("rpsresult15").innerHTML = " ⠀⠀⠈⠹⢶⣆⡀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⣰⡾⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀"
             document.getElementById("rpsresult16").innerHTML = " ⠀⠀⠀⠀⠀⠈⠛⠕⠲⠤⢤⢀⣀⣀⣀⣀⣀⣠⣤⡤⠼⠟⠛⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀";
+            document.getElementById("rpsresult17").innerHTML = "                                                       "
+            document.getElementById("rpsresult18").innerHTML = "                                                       "
+            document.getElementById("rpsresult19").innerHTML = "                                                       "
+            document.getElementById("rpsresult20").innerHTML = "                                                       "       ;
         }
         if(selected == 0){
             document.getElementById("rpsresult").innerHTML = "You Win :D";
@@ -156,6 +168,8 @@ function rpsselection(playerSelection){
             document.getElementById("rpsresult16").innerHTML = "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣶⣤⣤⣶⣶⣿⠛⣁⣼⣿⣿⣶⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀"
             document.getElementById("rpsresult17").innerHTML = "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣦⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀"
             document.getElementById("rpsresult18").innerHTML = "⠀⠀⠀⠀⠀⠀⠀⠀⢀⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣗⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀"
+            document.getElementById("rpsresult19").innerHTML = "                                                       "
+            document.getElementById("rpsresult20").innerHTML = "                                                       "   
             ;
         }
         if(selected == 0){
@@ -175,6 +189,10 @@ function rpsselection(playerSelection){
             document.getElementById("rpsresult14").innerHTML = " ⠀⡜⢶⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣬⠟⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀"
             document.getElementById("rpsresult15").innerHTML = " ⠀⠀⠈⠹⢶⣆⡀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⣰⡾⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀"
             document.getElementById("rpsresult16").innerHTML = " ⠀⠀⠀⠀⠀⠈⠛⠕⠲⠤⢤⢀⣀⣀⣀⣀⣀⣠⣤⡤⠼⠟⠛⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀";
+            document.getElementById("rpsresult17").innerHTML = "                                                       "
+            document.getElementById("rpsresult18").innerHTML = "                                                       "
+            document.getElementById("rpsresult19").innerHTML = "                                                       "
+            document.getElementById("rpsresult20").innerHTML = "                                                       "   
         }
         if(selected == 1){
             document.getElementById("rpsresult").innerHTML = "You Win :D";
