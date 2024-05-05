@@ -7,8 +7,8 @@ var rps3 = "1scissors";
 
 function rpsselection(){
     selected = Math.floor(Math.random() * (options.length));
-    document.getElementById("rpsDisplay").innerHTML = options(choice);
-    elementt.html(options[selected]);
+    document.getElementById("rpsDisplay").innerHTML = options(selected);
+    // elementt.html(options[selected]);
 }
 function rps1(){
     if(options = 0){
