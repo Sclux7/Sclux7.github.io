@@ -2,8 +2,8 @@ var options = ['rock','paper','scissors'];
 var selected = 0;
 var elementt = $('#target2');
 var rps1 = "1rock";
-var rps1 = "1paper";
-var rps1 = "1scissors";
+var rps2 = "1paper";
+var rps3 = "1scissors";
 
 function rpsselection(){
     selected = Math.floor(Math.random() * (options.length));
