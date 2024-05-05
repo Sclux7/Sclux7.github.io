@@ -9,37 +9,37 @@ function rpsselection(){
     selected = Math.floor(Math.random() * (options.length));
     document.getElementById("rpsDisplay").innerHTML = options(choice);
     elementt.html(options[selected]);
-    if(rps1 == true){
-        if(choice == 0){
-            document.getElementById("rpsresult").innerHTML = "draw";
-        }
-        if(choice == 1){
-            document.getElementById("rpsresult").innerHTML = "You Lose :(";
-        }
-        if(choice == 2){
-            document.getElementById("rpsresult").innerHTML = "You Win :D";
-        }
+}
+function rps1(){
+    if(choice == 0){
+        document.getElementById("rpsresult").innerHTML = "draw";
     }
-    if(rps2 == true){
-        if(choice == 1){
-            document.getElementById("rpsresult").innerHTML = "draw";
-        }
-        if(choice == 2){
-            document.getElementById("rpsresult").innerHTML = "You Lose :(";
-        }
-        if(choice == 0){
-            document.getElementById("rpsresult").innerHTML = "You Win :D";
-        }
+    if(choice == 1){
+        document.getElementById("rpsresult").innerHTML = "You Lose :(";
     }
-    if(rps3 == true){
-        if(choice == 2){
-            document.getElementById("rpsresult").innerHTML = "draw";
-        }
-        if(choice == 0){
-            document.getElementById("rpsresult").innerHTML = "You Lose :(";
-        }
-        if(choice == 1){
-            document.getElementById("rpsresult").innerHTML = "You Win :D";
-        }
+    if(choice == 2){
+        document.getElementById("rpsresult").innerHTML = "You Win :D";
+    }
+}
+function rps2(){
+    if(choice == 1){
+        document.getElementById("rpsresult").innerHTML = "draw";
+    }
+    if(choice == 2){
+        document.getElementById("rpsresult").innerHTML = "You Lose :(";
+    }
+    if(choice == 0){
+        document.getElementById("rpsresult").innerHTML = "You Win :D";
+    }
+}
+function rps3(){
+    if(choice == 2){
+        document.getElementById("rpsresult").innerHTML = "draw";
+    }
+    if(choice == 0){
+        document.getElementById("rpsresult").innerHTML = "You Lose :(";
+    }
+    if(choice == 1){
+        document.getElementById("rpsresult").innerHTML = "You Win :D";
     }
 }
