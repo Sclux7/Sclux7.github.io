@@ -132,14 +132,14 @@ body {
 }
 
 .button3 {
-    background-color: #604688;
-    color: #47207e;
-    border: 2px solid #47207e;
+    background-color: #d7baff;
+    color: #b078fd;
+    border: 2px solid #b078fd;
 }
 
 .button3:hover {
-    background-color: #47207e;
-    color: #604688;
+    background-color: #b078fd;
+    color: #d7baff;
 }
 
 .pubox {
