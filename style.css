@@ -97,3 +97,47 @@ body {
     color: #028f31;
 }
 
+.button {
+    border: none;
+    color: #543186;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: #d7baff;
+    color: #b078fd;
+    border: 2px solid #b078fd;
+}
+
+.button1:hover {
+    background-color: #b078fd;
+    color: #d7baff;
+}
+
+.button2 {
+    background-color: #e3d0ff;
+    color: #c197fd;
+    border: 2px solid #c197fd;
+}
+
+.button2:hover {
+    background-color: #c197fd;
+    color: #e3d0ff;
+}
+
+.button3 {
+    background-color: #604688;
+    color: #47207e;
+    border: 2px solid #47207e;
+}
+
+.button3:hover {
+    background-color: #47207e;
+    color: #604688;
+}
