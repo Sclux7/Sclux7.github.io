@@ -141,3 +141,24 @@ body {
     background-color: #47207e;
     color: #604688;
 }
+
+.pubox {
+    position: absolute;
+    z-index: 9;
+    background-color: #e3d0ff;
+    text-align: center;
+    border-color: #5c10c7;
+    border-style: outset;
+    border-radius: 12px;
+}
+
+.puboxheader {
+    padding: 10px;
+    cursor: move;
+    z-index: 10;
+    background-color: #e3d0ff;
+    text-align: center;
+    border-color: #5c10c7;
+    border-style: outset;
+    border-radius: 12px;
+}
