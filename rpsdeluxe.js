@@ -11,35 +11,35 @@ function rpsselection(){
     elementt.html(options[selected]);
 }
 function rps1(){
-    if(choice == 0){
+    if(options == 0){
         document.getElementById("rpsresult").innerHTML = "draw";
     }
-    if(choice == 1){
+    if(options == 1){
         document.getElementById("rpsresult").innerHTML = "You Lose :(";
     }
-    if(choice == 2){
+    if(options == 2){
         document.getElementById("rpsresult").innerHTML = "You Win :D";
     }
 }
 function rps2(){
-    if(choice == 1){
+    if(options == 1){
         document.getElementById("rpsresult").innerHTML = "draw";
     }
-    if(choice == 2){
+    if(options == 2){
         document.getElementById("rpsresult").innerHTML = "You Lose :(";
     }
-    if(choice == 0){
+    if(options == 0){
         document.getElementById("rpsresult").innerHTML = "You Win :D";
     }
 }
 function rps3(){
-    if(choice == 2){
+    if(options == 2){
         document.getElementById("rpsresult").innerHTML = "draw";
     }
-    if(choice == 0){
+    if(options == 0){
         document.getElementById("rpsresult").innerHTML = "You Lose :(";
     }
-    if(choice == 1){
+    if(options == 1){
         document.getElementById("rpsresult").innerHTML = "You Win :D";
     }
 }
