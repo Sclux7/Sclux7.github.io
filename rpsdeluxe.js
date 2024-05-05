@@ -1,13 +1,13 @@
 var options = ['rock','paper','scissors'];
 var selected = 0;
-var element = $('#target2');
+var elementt = $('#target2');
 var rps1 = "1rock";
 var rps1 = "1paper";
 var rps1 = "1scissors";
 
 function rpsselection(){
     selected = Math.floor(Math.random() * (options.length));
-    document.getElementById("rpsDisplay").innerHTML = facts(choice);
+    document.getElementById("rpsDisplay").innerHTML = options(choice);
     element.html(options[selected]);
     if(rps1 == true){
         if(choice == 0){
