@@ -3,8 +3,9 @@ var selected = 0;
 var element = $('#target2');
 
 function rpsselection(){
-    var choice = Math.floor(Math.random() * (options.length));
+    selected = Math.floor(Math.random() * (options.length));
     document.getElementById("rpsDisplay").innerHTML = facts(choice);
+    element.html(options[selected])
     if(rps1 == true){
         if(choice == 0){
             document.getElementById("rpsresult").innerHTML = "draw";
