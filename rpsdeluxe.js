@@ -11,13 +11,13 @@ function rpsselection(){
     elementt.html(options[selected]);
 }
 function rps1(){
-    if(options == 0){
+    if(options = 0){
         document.getElementById("rpsresult").innerHTML = "draw";
     }
-    if(options == 1){
+    if(options = 1){
         document.getElementById("rpsresult").innerHTML = "You Lose :(";
     }
-    if(options == 2){
+    if(options = 2){
         document.getElementById("rpsresult").innerHTML = "You Win :D";
     }
 }
