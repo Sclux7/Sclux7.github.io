@@ -162,3 +162,8 @@ body {
     border-style: outset;
     border-radius: 12px;
 }
+
+.webbutton {
+    width: 88px;
+    height: 31px;
+}
