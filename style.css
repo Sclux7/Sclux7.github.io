@@ -71,11 +71,11 @@ body {
     background-color: #170136;
     color: #5c10c7;
     margin-right: 20px;
-    margin-left: 1550px;
-    margin-top: 80;
-    padding: 15px 15px 15px 10px;
+    margin-left: 1100px;
+    margin-top: 1260;
+    padding: 10px 10px 20px 10px;
     height: 520px;
-    width: 170px;
+    width: 200px;
     left: 0;
     top: 0;
     position: absolute;
@@ -166,4 +166,10 @@ body {
 .webbutton {
     width: 88px;
     height: 31px;
+}
+
+.webbanner {
+    width: 200px;
+    height: 27px;
+    padding-bottom: 20;
 }
