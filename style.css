@@ -173,3 +173,9 @@ body {
     height: 27px;
     padding-bottom: 20;
 }
+
+.imagethentext {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
