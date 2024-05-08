@@ -20,6 +20,7 @@ function newDay() {
         selectedDays.day = day;
         selectedDays.selectedDay = selectedDay;
         localStorage.setItem('selectedDays', JSON.stringify(selectedDays));
+        document.getElementById("cotdlocation").innerHTML = deck[selectedDay];
         /* fix this and other comment its too late for this shit*/
     } else {
         /* appropriate result */
