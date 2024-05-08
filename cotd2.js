@@ -2,14 +2,15 @@ var deck = ['7d', '8s', '6h', 'js', '9h', '3d', '8c', '10h', '5d', '4c', 'kh', '
 
 function getDayOfYear() {
     var current = new Date();
-    var start = new Date(now.getFullYear(), 0, 0);
+    var start = new Date(current.getFullYear(), 0, 0);
     var diff = current - start;
-    var oneDay = (24 * 60 * 60 * 1000);
+    var oneDay = 24 * 60 * 60 * 1000;
     var dayOfYear = Math.floor(diff / oneDay);
     return dayOfYear;
 }
 
 function cotd() {
-    var cardOfDay = Math.floor(getDayOfYear()%deck.length);
-    document.getElementsByClassName('cotdclass')[0].src="./assets/" + deck[cardOfDay] + ".jpg";
+    var cardOfDay = Math.floor((getDayOfYear())%deck.length);
+    document.getElementsByClassName('cotdclass2')[0].src="./assets/cards/" + deck[cardOfDay] + ".png";
 }
+cotd()
