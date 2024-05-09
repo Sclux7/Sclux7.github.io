@@ -142,25 +142,23 @@ body {
     color: #d7baff;
 }
 
-.pubox {
+#pubox {
     position: absolute;
     z-index: 9;
     background-color: #e3d0ff;
     text-align: center;
-    border-color: #5c10c7;
+    border: 7px solid #5c10c7;
     border-style: outset;
     border-radius: 12px;
 }
 
-.puboxheader {
+#puboxheader {
     padding: 10px;
     cursor: move;
     z-index: 10;
     background-color: #e3d0ff;
-    text-align: center;
     border-color: #5c10c7;
-    border-style: outset;
-    border-radius: 12px;
+
 }
 
 .webbutton {
