@@ -147,6 +147,7 @@ body {
     z-index: 9;
     background-color: #e3d0ff;
     text-align: center;
+    font-size: 20px;
     border: 7px solid #5c10c7;
     border-style: outset;
     border-radius: 12px;
