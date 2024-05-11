@@ -3,10 +3,6 @@
     src: url('./assets/toxigenesis bd.otf') format('opentype');
 }
 
-.hide {
-    display: none;
-}
-
 .scrolling-title {
     white-space: nowrap;
     overflow: hidden;
@@ -181,11 +177,6 @@ body {
     height: 47px;
 }
 
-.webbutton2:hover + .hide {
-    display: block;
-    color: #e3d0ff;
-}
-
 .webbanner {
     width: 200px;
     height: 27px;
@@ -196,6 +187,10 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.hide {
+    display: none;
 }
 
 .albums {
