@@ -37,3 +37,10 @@ function dragablestop(){
     document.onmouseup = null;
     document.onmousemove = null;
 }
+
+{/* <div id="pubox" align="center">
+<div id="puboxheader"> Sorry if the website is FREAKED UP im working on soemthing :D</div>
+<div id="puboxheader"> You can drag this box around by dragging the pink part....</div>
+<img src="./assets/working.gif" alt="hi">
+</div>
+<script src="./popupbox.js"></script> */}
