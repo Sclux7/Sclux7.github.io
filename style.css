@@ -3,6 +3,10 @@
     src: url('./assets/toxigenesis bd.otf') format('opentype');
 }
 
+.hide {
+    display: none;
+}
+
 .scrolling-title {
     white-space: nowrap;
     overflow: hidden;
@@ -23,7 +27,7 @@ body {
     margin-left: -14px;
     margin-top: -6px;
     padding: 15px 15px 15px 10px;
-    height: 840px;
+    height: 1130px;
     width: 170px;
     left: 0;
     top: 0;
@@ -58,7 +62,7 @@ body {
     margin-left: 158px;
     margin-top: 25px;
     padding: 30px 30px 30px 30px;
-    height: 6000px;
+    height: 6500px;
     width: 895px;
     border-color: #5c10c7;
     border-style: outset;
@@ -167,6 +171,21 @@ body {
     height: 31px;
 }
 
+.webbutton2 {
+    width: 88px;
+    height: 31px;
+}
+
+.webbutton2:hover {
+    width: 132px;
+    height: 47px;
+}
+
+.webbutton2:hover + .hide {
+    display: block;
+    color: #e3d0ff;
+}
+
 .webbanner {
     width: 200px;
     height: 27px;
@@ -180,6 +199,16 @@ body {
 }
 
 .albums {
-    width: 32px;
-    height: 32px;
+    width: 48px;
+    height: 48px;
+}
+
+.albums:hover {
+    width: 64px;
+    height: 64px;
+}
+
+.albums:hover + .hide {
+    display: block;
+    color: #e3d0ff;
 }
