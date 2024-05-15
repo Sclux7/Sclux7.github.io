@@ -207,3 +207,17 @@ body {
     display: block;
     color: #e3d0ff;
 }
+
+.album {
+    width: 64px;
+    height: 64px;
+}
+.album:hover {
+    width: 80px;
+    height: 80px;
+}
+
+.album:hover + .hide {
+    display: block;
+    color: #e3d0ff;
+}
