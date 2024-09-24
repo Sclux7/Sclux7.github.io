@@ -181,6 +181,11 @@ body {
 
 }
 
+.sclibsize {
+    width: 256px;
+    height: 256px;
+}
+
 .webbutton {
     width: 88px;
     height: 31px;
@@ -239,4 +244,16 @@ body {
 .album:hover + .hide {
     display: block;
     color: #e3d0ff;
+}
+
+.fullsizecontainer {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+.sclibrandom {
+    position: absolute;
+    width: 88px;
+    height: auto;
 }

@@ -1,5 +1,5 @@
 const originalDate = new Date('2024-05-03T12:29:30Z');
-const targetSecondsMilestone = [12422400, 13000000, 14000000, 15000000];  // new
+const targetSecondsMilestone = [13000000, 14000000, 15000000, 16000000];  // new
 
 function findNewTarget(index){
     const newTargetM = targetSecondsMilestone[index] + 1000000;
