@@ -66,6 +66,22 @@ body {
     text-align: center;
 }
 
+.countdownbox {
+    overflow: visible;
+    background-color: #170136;
+    color: #5c10c7;
+    margin-right: 20px;
+    margin-left: 1200px;
+    margin-top: 865px;
+    padding: 10px 10px 30px 10px;
+    height: 430px;
+    width: 400px;
+    border-color: #27fc6e;
+    border-style: outset;
+    border-radius: 22px;
+    text-align: center;
+}
+
 .sidebarR {
     overflow: visible;
     background-color: #170136;
