@@ -91,7 +91,7 @@ body {
     color: #5c10c7;
     margin-right: 20px;
     margin-left: 1100px;
-    margin-top: 1260;
+    margin-top: 1260px;
     padding: 10px 10px 20px 10px;
     height: 520px;
     width: 200px;
@@ -101,6 +101,25 @@ body {
     border-color: #27fc6e;
     border-style: outset;
     border-radius: 12px;
+    text-align: center;
+}
+
+.importantbox {
+    overflow: visible;
+    background-color: #170136;
+    color: #5c10c7;
+    margin-right: 20px;
+    margin-left: 1147px;
+    margin-top: 308px;
+    padding: 10px 10px 30px 10px;
+    height: 100px;
+    width: 400px;
+    left: 0;
+    top: 0;
+    position: absolute;
+    border-color: #27fc6e;
+    border-style: outset;
+    border-radius: 22px;
     text-align: center;
 }
 
