@@ -72,9 +72,9 @@ body {
     color: #5c10c7;
     margin-right: 20px;
     margin-left: 1200px;
-    margin-top: 925px;
+    margin-top: 868px;
     padding: 10px 10px 30px 10px;
-    height: 320px;
+    height: 380px;
     width: 400px;
     left: 0;
     top: 0;
@@ -159,6 +159,16 @@ body {
 .button3:hover {
     background-color: #b078fd;
     color: #d7baff;
+}
+
+.buttonimpt {
+    background-color: inherit;
+    padding: 5px 10px;
+    cursor:pointer;
+}
+
+.buttonimpt:hover {
+    background-image: url('click.gif');
 }
 
 #pubox {
