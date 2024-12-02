@@ -1,5 +1,5 @@
 const originalDate = new Date('2024-05-03T12:29:30Z');
-const endOfYearDate = new Date('2025-01-01T00:00:00Z')
+const endOfYearDate = new Date('2025-01-01T00:00:00Z');
 const targetSecondsMilestone = [13000000, 14000000, 15000000, 16000000];  // new
 
 function findNewTarget(index){
@@ -13,10 +13,6 @@ function counterSeconds(){
     const differenceSeconds = Math.floor((now - originalDate) / 1000);
     const counter = document.getElementById('counter');
     counter.textContent = `${differenceSeconds}`;
-
-    const secondsLeft = Math.floor((endOfYearDate - now) / 1000);
-    const countdowneoy = document.getElementById('countdowneoy');
-    countdowneoy.textContent = `${secondsLeft}`;
 
     targetSecondsMilestone.forEach((targetSeconds, index) => {
         const remainingSeconds = targetSeconds - differenceSeconds;  // new
@@ -32,4 +28,18 @@ function counterSeconds(){
     setTimeout(counterSeconds, 1000);
 };
 
+function countdownSeconds(){
+    const now2 = new Date();
+    const secondsLeft = Math.floor((endOfYearDate - now2) / 1000);
+    const countdowneoy = document.getElementById('countdowneoy');
+    if (countdowneoy) {
+        countdowneoy.textContent = `${secondsLeft}`;
+    } else {
+        console.error("error countdowneoy")
+    }
+
+    setTimeout(countdownSeconds, 1000);
+};
+
 counterSeconds();
+countdownSeconds();
