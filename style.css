@@ -121,6 +121,8 @@ body {
     border-style: outset;
     border-radius: 22px;
     text-align: center;
+    /* border-image: url('./assets/sparkle.gif')  30 fill / 30px round; */
+    background-image: url('./assets/sparkle.gif');
 }
 
 .sidebar a {

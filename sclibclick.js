@@ -4,5 +4,7 @@ function sclibcomplete(){
     }
     else {
         document.getElementById("imgchange").src = "./assets/sclibwin.png"
+        sclibballfound = "You found it! Wow! Wow! Thanks!"
+        document.getElementById("sclibwin").innerHTML = sclibballfound;
     }
 }
