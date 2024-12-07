@@ -32,6 +32,7 @@ body {
     border-style: outset;
     border-radius: 12px;
     text-align: center;
+    background-image: url('./assets/sparkle.gif');
 }
 
 .topbox {
@@ -48,6 +49,7 @@ body {
     border-style: outset;
     border-radius: 22px;
     text-align: center;
+    background-image: url('./assets/sparkle.gif');
 }
 
 .mainbox {
@@ -83,6 +85,7 @@ body {
     border-style: outset;
     border-radius: 22px;
     text-align: center;
+    background-image: url('./assets/sparkle.gif');
 }
 
 .sidebarR {
@@ -102,6 +105,7 @@ body {
     border-style: outset;
     border-radius: 12px;
     text-align: center;
+    background-image: url('./assets/sparkle.gif');
 }
 
 .importantbox {
@@ -287,4 +291,14 @@ body {
     position: absolute;
     width: 88px;
     height: auto;
+}
+
+.imageblock {
+    display: flex;
+    align-items: center;
+}
+
+.imagecol {
+    display: flex;
+    flex-direction: column;
 }
