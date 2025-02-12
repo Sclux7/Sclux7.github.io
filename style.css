@@ -129,6 +129,27 @@ body {
     background-image: url('./assets/sparkle.gif');
 }
 
+.importantbox2 {
+    overflow: visible;
+    background-color: #170136;
+    color: #5c10c7;
+    margin-right: 20px;
+    margin-left: 1139px;
+    margin-top: 561px;
+    padding: 10px 10px 30px 10px;
+    height: 100px;
+    width: 400px;
+    left: 0;
+    top: 0;
+    position: absolute;
+    border-color: #27fc6e;
+    border-style: outset;
+    border-radius: 22px;
+    text-align: center;
+    /* border-image: url('./assets/sparkle.gif')  30 fill / 30px round; */
+    background-image: url('./assets/sparkle.gif');
+}
+
 .sidebar a {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
