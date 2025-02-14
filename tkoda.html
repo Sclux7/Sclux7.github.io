@@ -3,14 +3,31 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <title>Sclux7 ! World ! Delivery ! Perfect ! Always ! Now !</title>
     <script src="scrolling-title.js"></script>
+    <script>
+        // const userinput = prompt("brawn");
+        function displayInput() {
+            let userinput = document.getElementById("userinput").value;
+            let userinput2 = document.getElementById("userinput2").value;
+            document.getElementById("output").innerText = "Pay off amount: " + (userinput * (1.5 - (0.01*userinput2)));
+            print
+        }
+    </script>
     <link rel="icon" type="image/gif" href="./assets/favicon.gif">
 </head>
 
 <body style="background-image: url(./assets/starsnight.gif);">
     <div class="mainbox">
     <h1>Welcome to the The kingdom Of Dubblious Affairs page!</h1>
+    <h2>Pay off calc</h2>
+    <input type="text" id="userinput" placeholder="Enemy Brawn">
+    <input type="text" id="userinput2" placeholder="Player Barter">
+    <button onclick="displayInput()" class="button button1">Submit</button>
+    <p id="output"></p>
+    <br />
+    <br />
     <div id="chart"></div>
-        <div id="brawn"><h1></h1></div>
-        <script src="./kingdom of dubbl.js"></script>
+    <div id="brawn"><h1></h1></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js"></script>
+    <script src="./kingdom of dubbl.js"></script>
     </div>
 </body>

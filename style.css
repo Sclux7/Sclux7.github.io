@@ -324,29 +324,33 @@ body {
     flex-direction: column;
 }
 
-.chart{
-    position:absolute;
-    width:500px;
-    height:500px;
-    top:0;
-    left:0;
-}
-
-.brawn{
-    position: absolute;
-    width:400px;
-    height:500px;
-    top:0;
-    left:520px;
-}
-
-.brawn h1{
-    font-size: 50px;
-    font-weight: bold;
-    position: absolute;
-    padding: 0;
-    margin: 0;
-    top:50%;
-    -webkit-transform:translate(0,-50%);
-            transform:translate(0,-50%);
-}
+/* text{
+    font-family: 'toxigenesis bd';
+      font-size:11px;
+      pointer-events:none;
+  }
+  #chart{
+      position:absolute;
+      width:500px;
+      height:500px;
+      top:0;
+      left:0;
+  }
+  #brawn{
+      position: absolute;
+      width:400px;
+      height:500px;
+      top:0;
+      left:520px;
+  }
+  #brawn h1{
+      font-size: 50px;
+      font-weight: bold;
+      font-family: 'toxigenesis bd';
+      position: absolute;
+      padding: 0;
+      margin: 0;
+      top:50%;
+      -webkit-transform:translate(0,-50%);
+              transform:translate(0,-50%);
+  } */

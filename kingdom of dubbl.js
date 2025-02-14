@@ -7,7 +7,7 @@ var padding = {top:20, right:40, bottom:0, left:0},
     picked = 100000,
     oldpick = [],
     color = d3.scale.category20();
-
+    
 var data = [
     {"label": "Goblin", "value": 10, "brawn": "xxx"},
     {"label": "Half goblin", "value": 10, "brawn": "xxx"},
@@ -141,14 +141,14 @@ container.append("circle")
     .attr("cx", 0)
     .attr("cy", 0)
     .attr("r", 60)
-    .style({"fill": "white", "cursor": "pointer"});
+    .style({"cursor": "pointer"});
 
 container.append("text")
     .attr("x", 0)
     .attr("y", 15)
     .attr("text-anchor", "middle")
-    .text("SPIN")
-    .style({"font-weight": "bold", "font-size": "30px"});
+    .text("217")
+    .style({"fill": "#5C10C7","font-weight": "bold", "font-size": "30px"});
 
 function rotTween(to) {
     var i = d3.interpolate(oldrotation % 360, rotation);
