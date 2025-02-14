@@ -134,8 +134,8 @@ body {
     background-color: #170136;
     color: #5c10c7;
     margin-right: 20px;
-    margin-left: 1139px;
-    margin-top: 561px;
+    margin-left: 1214px;
+    margin-top: 153px;
     padding: 10px 10px 30px 10px;
     height: 100px;
     width: 400px;
@@ -322,4 +322,31 @@ body {
 .imagecol {
     display: flex;
     flex-direction: column;
+}
+
+.chart{
+    position:absolute;
+    width:500px;
+    height:500px;
+    top:0;
+    left:0;
+}
+
+.brawn{
+    position: absolute;
+    width:400px;
+    height:500px;
+    top:0;
+    left:520px;
+}
+
+.brawn h1{
+    font-size: 50px;
+    font-weight: bold;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    top:50%;
+    -webkit-transform:translate(0,-50%);
+            transform:translate(0,-50%);
 }
