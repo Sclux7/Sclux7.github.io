@@ -230,22 +230,22 @@ function pathSelection(pathSelection){
             if (roll <= 0.25){
                 playermoney = playermoney + (playermoney*0.25)
                 document.getElementById("pathOutput").innerText = "Remaining: " + playermoney;
-                round = "4fd";
+                round = "3afd";
             }
             else if (roll > 0.25 && roll <= 0.5){
                 playermoney = playermoney + (playermoney*0.5)
                 document.getElementById("pathOutput").innerText = "Remaining: " + playermoney;
-                round = "4fd";
+                round = "3afd";
             }
             else if (roll > 0.5 && roll <= 0.75){
                 playermoney = playermoney - (playermoney*0.25)
                 document.getElementById("pathOutput").innerText = "Remaining: " + playermoney;
-                round = "4fd";
+                round = "3afd";
             }
             else if (roll > 0.75 && roll < 1.0){
                 playermoney = playermoney - (playermoney*0.5)
                 document.getElementById("pathOutput").innerText = "Remaining: " + playermoney;
-                round = "4fd";
+                round = "3afd";
             }
             return;
         }
@@ -261,22 +261,22 @@ function pathSelection(pathSelection){
             if (roll <= 0.25){
                 playermoney = playermoney + (playermoney*0.25)
                 document.getElementById("pathOutput").innerText = "Remaining: " + playermoney;
-                round = "4fd";
+                round = "3bfu";
             }
             else if (roll > 0.25 && roll <= 0.5){
                 playermoney = playermoney + (playermoney*0.5)
                 document.getElementById("pathOutput").innerText = "Remaining: " + playermoney;
-                round = "4fd";
+                round = "3bfu";
             }
             else if (roll > 0.5 && roll <= 0.75){
                 playermoney = playermoney - (playermoney*0.25)
                 document.getElementById("pathOutput").innerText = "Remaining: " + playermoney;
-                round = "4fd";
+                round = "3bfu";
             }
             else if (roll > 0.75 && roll < 1.0){
                 playermoney = playermoney - (playermoney*0.5)
                 document.getElementById("pathOutput").innerText = "Remaining: " + playermoney;
-                round = "4fd";
+                round = "3bfu";
             }
             return;
         }
@@ -310,22 +310,22 @@ function pathSelection(pathSelection){
             if (roll <= 0.25){
                 playermoney = playermoney + (playermoney*0.25)
                 document.getElementById("pathOutput").innerText = "Remaining: " + playermoney;
-                round = "4fd";
+                round = "4afu";
             }
             else if (roll > 0.25 && roll <= 0.5){
                 playermoney = playermoney + (playermoney*0.5)
                 document.getElementById("pathOutput").innerText = "Remaining: " + playermoney;
-                round = "4fd";
+                round = "4afu";
             }
             else if (roll > 0.5 && roll <= 0.75){
                 playermoney = playermoney - (playermoney*0.25)
                 document.getElementById("pathOutput").innerText = "Remaining: " + playermoney;
-                round = "4fd";
+                round = "4afu";
             }
             else if (roll > 0.75 && roll < 1.0){
                 playermoney = playermoney - (playermoney*0.5)
                 document.getElementById("pathOutput").innerText = "Remaining: " + playermoney;
-                round = "4fd";
+                round = "4afu";
             }
             return;
         }
@@ -341,22 +341,22 @@ function pathSelection(pathSelection){
             if (roll <= 0.25){
                 playermoney = playermoney + (playermoney*0.25)
                 document.getElementById("pathOutput").innerText = "Remaining: " + playermoney;
-                round = "4fd";
+                round = "4bfd";
             }
             else if (roll > 0.25 && roll <= 0.5){
                 playermoney = playermoney + (playermoney*0.5)
                 document.getElementById("pathOutput").innerText = "Remaining: " + playermoney;
-                round = "4fd";
+                round = "4bfd";
             }
             else if (roll > 0.5 && roll <= 0.75){
                 playermoney = playermoney - (playermoney*0.25)
                 document.getElementById("pathOutput").innerText = "Remaining: " + playermoney;
-                round = "4fd";
+                round = "4bfd";
             }
             else if (roll > 0.75 && roll < 1.0){
                 playermoney = playermoney - (playermoney*0.5)
                 document.getElementById("pathOutput").innerText = "Remaining: " + playermoney;
-                round = "4fd";
+                round = "4bfd";
             }
             return;
         }
@@ -376,12 +376,12 @@ function pathSelection(pathSelection){
             if (roll <= 0.50){
                 playermoney = playermoney*2
                 document.getElementById("pathOutput").innerText = "Remaining: " + playermoney;
-                round = "4fu";
+                round = "4afd";
             }
             else{
                 playermoney = playermoney*0
                 document.getElementById("pathOutput").innerText = "Remaining: " + playermoney;
-                round = "4fu";
+                round = "4afd";
             }
             return;
         }
@@ -391,12 +391,12 @@ function pathSelection(pathSelection){
             if (roll <= 0.50){
                 playermoney = playermoney*2
                 document.getElementById("pathOutput").innerText = "Remaining: " + playermoney;
-                round = "4fd";
+                round = "4bfu";
             }
             else{
                 playermoney = playermoney*0
                 document.getElementById("pathOutput").innerText = "Remaining: " + playermoney;
-                round = "4fd";
+                round = "4bfu";
             }
             return;
         }
@@ -405,7 +405,7 @@ function pathSelection(pathSelection){
             return;
         }
     }
-    if(round == "4fu"){
+    if(round == "4afu" || round == "4afd"){
         if(pathSelection === 1){
             document.getElementById("pathOutput").innerText = "Not available!!";
             return;
@@ -435,29 +435,29 @@ function pathSelection(pathSelection){
             return;
         }
     }
-    if(round == "4fd"){
+    if(round == "4bfu" || round == "4bfd"){
         if(pathSelection === 1){
             const roll = Math.random(Math.floor());
             console.log("1", roll)
             if (roll <= 0.25){
                 playermoney = playermoney + (playermoney*0.25)
                 document.getElementById("pathOutput").innerText = "Remaining: " + playermoney;
-                round = "4fd";
+                round = "final";
             }
             else if (roll > 0.25 && roll <= 0.5){
                 playermoney = playermoney + (playermoney*0.5)
                 document.getElementById("pathOutput").innerText = "Remaining: " + playermoney;
-                round = "4fd";
+                round = "final";
             }
             else if (roll > 0.5 && roll <= 0.75){
                 playermoney = playermoney - (playermoney*0.25)
                 document.getElementById("pathOutput").innerText = "Remaining: " + playermoney;
-                round = "4fd";
+                round = "final";
             }
             else if (roll > 0.75 && roll < 1.0){
                 playermoney = playermoney - (playermoney*0.5)
                 document.getElementById("pathOutput").innerText = "Remaining: " + playermoney;
-                round = "4fd";
+                round = "final";
             }
             console.log("2", round, roll, playermoney)
             return;
