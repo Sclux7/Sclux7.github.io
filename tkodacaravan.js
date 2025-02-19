@@ -1,5 +1,7 @@
 var round = "0";
-var playermoney = 10;
+// var playermoney = 10;
+
+var playermoney = document.getElementById("caravaninput").value;
 
 function pathSelection(pathSelection){
     if(round === "0"){
