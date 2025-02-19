@@ -1,0 +1,107 @@
+const tkodaenemies = [
+    "Goblin",
+    "Half goblin",
+    "Quarter goblin",
+    "Double goblin",
+    "Triple goblin",
+    "Orc",
+    "Half orc",
+    "Two orcs",
+    "Hydra",
+    "Dragon",
+    "Human man",
+    "Freaky H Joy 1 (one)",
+    "Slime",
+    "Larger slime",
+    "Even larger slime",
+    "All encompassing slime",
+    "The world itself",
+    "God(not the main one)",
+    "Roll the god table",
+    "Wolf",
+    "Large wolf",
+    "Forest guardian",
+    "Forest of guardians (at least three of them)",
+    "Forest",
+    "Evil dice",
+    "Beastmaster with beast",
+    "Beastmaster without beast",
+    "Beast without beastmaster",
+    "Neither beast nor beastmaster",
+    "Your partner (loved or otherwise)",
+    "Large worm out of ground",
+    "spider",
+    "large spider",
+    "scorpion",
+    "large scorpion",
+    "Pirate",
+    "Giant",
+    "City mobster",
+    "pack o mobsters",
+    "pack of mobsters",
+    "bear",
+    "frog",
+    "giant frog",
+    "ancient dragon",
+    "elder slime",
+    "cloud giant",
+    "woods lurker",
+    "fire elemental",
+    "spider queen",
+    "assassin"
+];
+const tkodaminijames = [
+    "Geoguessr",
+    "timestamp",
+    "todays wordle",
+    "Random wordle",
+    "Pick a number",
+    "Battleships",
+    "Roll a dice",
+    "Tell a joke",
+    "name of the game",
+    "Answer the phone",
+    "Debate topic",
+    "Roll a dice until failure",
+    "The game where you throw up the pieces",
+    "Spell attic",
+    "Quick maths!",
+    "Bizarre rules in battle for north africa",
+    "Deal or no deal",
+    "Sell this invention",
+    "new rule",
+    "Come up with an argument",
+    "better name",
+    "Fishing contest!",
+    "Ranching contest!",
+    "Farming contest!",
+    "Gambling contest!",
+    "Lets go bowling",
+    "sentence right now",
+    "Spot the difference",
+    "What sound",
+    "How long",
+    "how many turns",
+    "Jeopardy",
+    "dice rolled?",
+    "Whats next?",
+    "Song lyrics",
+    "Boar on the floor!",
+    "Spelling bee",
+    "Dont let me leave murph timestamp",
+    "Quick!"
+];
+
+function pickone(){
+    const randomenemy = Math.floor(Math.random() * tkodaenemies.length);
+    const randominijame = Math.floor(Math.random() * tkodaminijames.length);
+
+    if(pathSelection === 4){
+        console.log("hi")
+        document.getElementById("picked").innerHTML = randomenemy;
+    }
+    if(pathSelection === 2){
+        console.log("hi2")
+        document.getElementById("picked").innerHTML = randominijame;
+    }
+}
