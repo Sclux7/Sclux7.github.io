@@ -52,5 +52,24 @@
             <p align="left">We can then.... manually.... rearrange..... this key to get</p>
             <h4>ENO{5CR4M83L3D_3GG5_4R3_1ND33D_T45TY!!!}</h4>
         </div>
+        <h1 align="left">LACTF 2025</h1>
+        <h2 align="left" onclick="toggleText('drop3')" style="cursor: pointer;"><span style="font-size: .75vw">(8/2/25)</span>javascryption</h2>
+        <div id="drop3" class="hidden">
+            <p>You wake up alone in a dark cabin, held captive by a bushy-haired man demanding you submit a "flag" to leave. Can you escape?</p>
+            <p>since there is js in title we check the website's debugger tab and find the following js:</p>
+            <img src="./assets/la2025javascryption1.png">
+            <p>this challenge is nicely laid out in front of us, so lets work backwards through the steps.</p>
+            <p>"JTNEJTNEUWZsSlglNUJPTERfREFUQSU1RG85MWNzeFdZMzlWZXNwbmVwSj <br> MlNUJPTERfREFUQSU1RGY5bWI3JTVCT0xEX0RBVEElNURHZGpGR2I="</p>
+            <p>is the resulting string after the 5 steps defined in the code. <br> Step 5 asks us to convert the string to base 64, so we translate it from base64.</p>
+            <p align="right">%3D%3DQflJX%5BOLD_DATA%5Do91csxWY39Vespne <br> pJ3%5BOLD_DATA%5Df9mb7%5BOLD_DATA%5DGdjFGb</p>
+            <p>step 4 converts parts of the string into url encoding, so we convert it back to normal</p>
+            <p align="right">==QflJX[OLD_DATA]o91csxWY39VespnepJ3[OLD_DATA]f9mb7[OLD_DATA]GdjFGb</p>
+            <p>step 3 converts all capital "Z"s to "[OLD_DATA]"</p>
+            <p align="right">==QflJXZo91csxWY39VespnepJ3Zf9mb7ZGdjFGb</p>
+            <p>step 2 reverses all the characters</p>
+            <p align="right">bGFjdGZ7bm9fZ3JpenpseV93YWxsc19oZXJlfQ==</p>
+            <p>step 1 converts to base 64. So,,,,</p>
+            <h4>lactf{no_grizzly_walls_here}</h4>
+        </div>
     </div>
 </body>
