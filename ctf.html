@@ -10,6 +10,47 @@
     <div class="mainbox">
         <h1>Welcome to the CTF writeup page!</h1>
         <p>As much as it pains me to do this, I figure it will be easier to just link people this page so they can see writeups easily without having to find them. This will be the ONLY exception to my "Only 1 page full of everything" rule. If you would like to visit the main page please click <h1><a href="https://sclux7.world/">here.</a></h1> Be warned, it is not at all as tidy as this one.</p>
-        <h1 align="left"><a href="https://sclux7.world/ctf">NULLCON GOA 2025</a></h1>
+    </div>
+</body>
+<body style="background-image: url(./assets/starsnight.gif);">
+    <div class="mainbox">
+        <script>
+            function toggleText(dropid){
+                const paragraph = document.getElementById(dropid);
+                paragraph.classList.toggle('hidden');
+            }
+        </script>
+        <h1>Writeups!</h1>
+        <h1 align="left">NULLCON GOA 2025</h1>
+        <h2 align="left" onclick="toggleText('drop1')" style="cursor: pointer;"><span style="font-size: .75vw">(2/2/25)</span>Flag checker</h2>
+        <div id="drop1" class="hidden">
+            <p>I first used DIE.exe to check the binary was decompilable. <br> Then, using Ghidra I examine the functions. <br> FUN_00101318 catches my eye, and in turn links to FUN_0010127a</p>
+            <p align="left">FUN_00101318</p>
+            <img src="./assets/ng2025Flagchecker1.png">
+            <p>Checking FUN_0010127a reveals that it takes encoded bytes from DAT_00102020 and further links to FUN_001011e9</p>
+            <p align="left">FUN_0010127a</p>
+            <img src="./assets/ng2025Flagchecker2.png">
+            <p align="left">DAT_00102020</p>
+            <img src="./assets/ng2025Flagchecker4.png">
+            <p>FUN_001011e9 is reversible, allowing us to input the encoded bytes from DAT_00102020 to create the flag</p>
+            <p align="left">FUN_001011e9</p>
+            <img src="./assets/ng2025Flagchecker3.png">
+            <p align="left">Python script</p>
+            <img src="./assets/ng2025Flagcheckerpng.png">
+            <h4>ENO{R3V3R53_3NG1N33R1NG_M45T3R!!!}</h4>
+        </div>
+        <h2 align="left" onclick="toggleText('drop2')" style="cursor: pointer;"><span style="font-size: .75vw">(2/2/25)</span>Scrambled</h2>
+        <div id="drop2" class="hidden">
+            <p align="left">We are given the following code and output:</p>
+            <p align="left">result: 1e78197567121966196e757e1f69781e1e1f7e736d6d1f75196e75191b646e196f6465510b0b0b57</p>
+            <img src="./assets/ng2025scrambled1.png">
+            <p align="left">We can then reverse this code and run it, examining the results and looking for a key</p>
+            <img src="./assets/ng2025scrambled2.png">
+            <p align="left">This decoded text looks suspiciously like a flag</p>
+            <p align="right">Key: 42 (0x2a)
+                Decoded text: 4R3_M83L3D_T5CR445TYGG5_3D_31ND3ENO{!!!}</p>
+            <p align="left">We can then.... manually.... rearrange..... this key to get</p>
+            <h4>ENO{5CR4M83L3D_3GG5_4R3_1ND33D_T45TY!!!}</h4>
+        </div>
     </div>
 </body>
