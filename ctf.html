@@ -71,5 +71,20 @@
             <p>step 1 converts to base 64. So,,,,</p>
             <h4>lactf{no_grizzly_walls_here}</h4>
         </div>
+        <h2 align="left" onclick="toggleText('drop4')" style="cursor: pointer;"><span style="font-size: .75vw">(8/2/25)</span>patricks-paraflag</h2>
+        <div id="drop4" class="hidden">
+            <p>I was going to give you the flag, but I dropped it into my parabox, and when I pulled it back out, it got all scrambled up! Can you recover the flag?</p>
+            <p>time for todays episode of Put That File In DIE.exe And Then In Ghidra !!!! <br> Put the file in DIE.exe to make sure we can decompile the file <br> Then put the file in Ghidra to decompile <br> in main we discover that this function checks to see if the inputted string is the same length as the target</p>
+            <p>in main we discover that this function checks to see if the inputted string is the same length as the target</p>
+            <img src="./assets/la2025patricksp1.png">
+            <p>if it is, the "paradoxification" process begins</p>
+            <img src="./assets/la2025patricksp2.png">
+            <p>basically, if the string is longer than 2 characters a new string will be created by taking half the second half of the string and placing it after each letter in the first half of the string (ABCDEF -> ADBECF) <br> we can see from earlier that the target is</p>
+            <p align="right">l_alcotsft{_tihne__ifnlfaign_igtoyt}</p>
+            <p>you can either write a program or rearrange this by hand, resulting in the following:</p>
+            <p align="right">part 1 : lactf{the_infinity}<br>part 2 : _lost_in_flag_got</p>
+            <p>finally, rearranging gives us</p>
+            <h4>lactf{the_flag_got_lost_in_infinity}</h4>
+        </div>
     </div>
 </body>

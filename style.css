@@ -364,3 +364,28 @@ body {
 .hidden {
     display: none;
 }
+
+@keyframes wheelHueColor {
+    from, to { color: #5c10c7; }
+    7%      { color: rgb(215,186,255); }
+    14%      { color: rgb(178,120,253); }
+    21%      { color: rgb(181,16,199); }
+    28%      { color: rgb(199,16,126); }
+    35%      { color: rgb(199,16,34); }
+    42%      { color: rgb(199,89,16); }
+    49%      { color: rgb(199,181,16); }
+    56%      { color: rgb(126,199,16); }
+    63%      { color: rgb(34,199,16); }
+    70%      { color: rgb(16,199,89); }
+    77%      { color: rgb(16,199,181); }
+    84%      { color: rgb(16,126,199); }
+    91%      { color: rgb(16,34,199); }
+    100%      { color: rgb(92,16,199); }
+}
+
+.example {
+    color: #5c10c7;
+    animation: wheelHueColor 5s infinite;
+    text-align: center;
+    font-size: 33px;
+}
