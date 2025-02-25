@@ -22,5 +22,4 @@ function runstuff(){
     // print("(" + randomspace3 + randomeye1 + randomspace1 + randommouth1 + randomspace2 + randomeye1 + randomspace3 + ")") // this line has both eyes the same as the first
     const randomtextemoji = "(" + randomspace[randomspace3] + eyes[randomeye1] + randomspace[randomspace1] + mouths[randommouth1] + randomspace[randomspace2] + eyes[randomeye2] + randomspace[randomspace4] + ")" ;
     document.getElementById("randomemoji").innerHTML = randomtextemoji;
-
 };
