@@ -177,6 +177,28 @@ const bug = [
     "right"
 ]
 
+const bug2 = [
+    "head",
+    "body",
+    "end",
+    "left",
+    "right"
+]
+
+const bug3 = [
+    "head",
+    "body",
+    "end",
+    "left",
+    "right"
+]
+const bug4 = [
+    "head",
+    "body",
+    "end",
+    "left",
+    "right"
+]
 const btqs = [
     "do you enjoy your job",
     "what did you do for work today",
@@ -233,18 +255,18 @@ function tselect(tselect){
     const randomgood = Math.floor(Math.random() * tkodagoodkarm.length);
     const randombad = Math.floor(Math.random() * tkodabadkarm.length);
     const randombug = Math.floor(Math.random() * bug.length);
-    const randombug2 = Math.floor(Math.random() * bug.length);
-    if(randombug2 == randombug){
-        randombug2 = Math.floor(Math.random() * bug.length);
-    }
-    const randombug3 = Math.floor(Math.random() * bug.length);
-    if(randombug3 == randombug2 || randombug3 == randombug || randombug2 == randombug){
-        randombug3 = Math.floor(Math.random() * bug.length);
-    }
+    const randombug2 = Math.floor(Math.random() * bug2.length);
+    // if(bug[randombug2] == bug[randombug]){
+    //     randombug2 = Math.floor(Math.random() * bug2.length);
+    // }
+    const randombug3 = Math.floor(Math.random() * bug3.length);
+    // if(randombug3 == randombug2 || randombug3 == randombug || randombug2 == randombug){
+    //     randombug3 = Math.floor(Math.random() * bug3.length);
+    // }
     const randombug4 = Math.floor(Math.random() * bug.length);
-    if(randombug4 == randombug3 || randombug4 == randombug2 || randombug4 == randombug || randombug3 == randombug2 || randombug3 == randombug || randombug2 == randombug){
-        randombug4 = Math.floor(Math.random() * bug.length);
-    }
+    // if(randombug4 == randombug3 || randombug4 == randombug2 || randombug4 == randombug || randombug3 == randombug2 || randombug3 == randombug || randombug2 == randombug){
+    //     randombug4 = Math.floor(Math.random() * bug4.length);
+    // }
     const randomq = Math.floor(Math.random() * btqs.length);
     const randomslack = Math.floor(Math.random() * btsc.length);
     const randomsrw = Math.floor(Math.random() * btrw.length);
@@ -336,16 +358,17 @@ function tselect(tselect){
         }
     }
     if(tselect === 11){ // bug 1
-        document.getElementById("picked").innerHTML = bug[randombug];
+        document.getElementById("picked").innerHTML = "destroyed part = " + bug[randombug];
     }
     if(tselect === 12){ // bug 2
-        document.getElementById("picked").innerHTML = bug[randombug] + ", " + bug[randombug2];
+        document.getElementById("picked").innerHTML = "destroyed parts = " + bug[randombug] + ", " + bug[randombug2];
     }
     if(tselect === 13){ // bug 3
-        document.getElementById("picked").innerHTML = bug[randombug] + ", " + bug[randombug2] + ", " + bug[randombug3];
+        document.getElementById("picked").innerHTML = "safe parts = " + bug[randombug2] + ", " + bug[randombug3];
     }
     if(tselect === 14){ // bug 4
-        document.getElementById("picked").innerHTML = bug[randombug] + ", " + bug[randombug2] + ", " + bug[randombug3] + ", " + bug[randombug4];
+        document.getElementById("picked").innerHTML = "safe part = " + bug[randombug4];
+        // document.getElementById("picked").innerHTML = bug[randombug] + ", " + bug[randombug2] + ", " + bug[randombug3] + ", " + bug[randombug4];
     }
     if(tselect === 15){
         document.getElementById("picked").innerHTML = btqs[randomq];
