@@ -15,6 +15,8 @@ const tkodaenemies = [
     "Larger slime",
     "Even larger slime",
     "All encompassing slime",
+    "Spiky slime",
+    "Slimy slime",
     "The world itself",
     "God(not the main one)",
     "Roll the god table",
@@ -35,6 +37,8 @@ const tkodaenemies = [
     "scorpion",
     "large scorpion",
     "Pirate",
+    "Pirate Captain",
+    "Pirate Crewmate",
     "Giant",
     "City mobster",
     "pack o mobsters",
@@ -89,7 +93,11 @@ const tkodaminijames = [
     "Boar on the floor!",
     "Spelling bee",
     "Dont let me leave murph timestamp",
-    "Quick!"
+    "Quick!",
+    "Worst videogame ost",
+    "Worst song",
+    "Blind audition",
+    "Questions"
 ];
 
 const tkodagoodkarm = [
@@ -108,7 +116,8 @@ const tkodagoodkarm = [
     "insult",
     "go to hell!!!!!",
     "Remove a debuff",
-    "Leave hell"
+    "Leave hell",
+    "one day blinding soup"
 ];
 
 const tkodabadkarm = [
@@ -127,7 +136,9 @@ const tkodabadkarm = [
     "Phonetic phready",
     "Letterboxd larry",
     "Snail moves again",
-    "Go to hell"
+    "Go to hell",
+    "Become slimed",
+    "blind"
 ]
 
 const tkodajob = [
@@ -143,11 +154,104 @@ const tkodajob = [
     "shocking plague!"
 ]
 
+const slimemine = [
+    "10 slime",
+    "20 slime",
+    "25 slime",
+    "50 slime",
+    "100 slime"
+]
+
+const slimerise = [
+    "0 layers",
+    "1 layer",
+    "2 layers",
+    "3 layers"
+]
+
+const bug = [
+    "head",
+    "body",
+    "end",
+    "left",
+    "right"
+]
+
+const btqs = [
+    "do you enjoy your job",
+    "what did you do for work today",
+    "what programs did you use today",
+    "did you enjoy your lunch break",
+    "do you find the other employees likeable",
+    "is there anyone in the office you suspect of slacking",
+    "what position do you see yourself working in 5 years into the future at this company",
+    "whats one thing you like about the boss"
+]
+
+const btsc = [
+    "see someone elses answer",
+    "sabotage answer",
+    "jumble",
+    "make your answer same as someone elses",
+    "bug conversation",
+    "know the question",
+    "know someone elses answer",
+    "sabotage question"
+]
+
+const btrw = [
+    "5 brawn","10 brawn","15 brawn","20 brawn","25 brawn","30 brawn","40 brawn","50 brawn",
+"5 barter","10 barter","15 barter","20 barter","25 barter","30 barter","40 barter","50 barter"
+]
+
+const MKOCarmy = [
+    "largest",
+    "big",
+    "small",
+    "smallest",
+    "one big troop",
+    "tiny"
+]
+const MKOCexport = [
+    "grain",
+    "stone",
+    "livestock",
+    "wood",
+    "iron",
+    "minerals"
+]
+const MKOCmagic = [
+    "plague",
+    "neutral bubble",
+    "chaos",
+    "transmute",
+    "strength potion" //your army becomes one tier higher (Biggest -> Big -> Small -> Smallest -> Tiny. One big does not change into anything)
+]
 function tselect(tselect){
     const randomenemy = Math.floor(Math.random() * tkodaenemies.length);
     const randominijame = Math.floor(Math.random() * tkodaminijames.length);
     const randomgood = Math.floor(Math.random() * tkodagoodkarm.length);
     const randombad = Math.floor(Math.random() * tkodabadkarm.length);
+    const randombug = Math.floor(Math.random() * bug.length);
+    const randombug2 = Math.floor(Math.random() * bug.length);
+    if(randombug2 == randombug){
+        randombug2 = Math.floor(Math.random() * bug.length);
+    }
+    const randombug3 = Math.floor(Math.random() * bug.length);
+    if(randombug3 == randombug2 || randombug3 == randombug || randombug2 == randombug){
+        randombug3 = Math.floor(Math.random() * bug.length);
+    }
+    const randombug4 = Math.floor(Math.random() * bug.length);
+    if(randombug4 == randombug3 || randombug4 == randombug2 || randombug4 == randombug || randombug3 == randombug2 || randombug3 == randombug || randombug2 == randombug){
+        randombug4 = Math.floor(Math.random() * bug.length);
+    }
+    const randomq = Math.floor(Math.random() * btqs.length);
+    const randomslack = Math.floor(Math.random() * btsc.length);
+    const randomsrw = Math.floor(Math.random() * btrw.length);
+    const randomMKOC1 = Math.floor(Math.random() * MKOCarmy.length);
+    const randomMKOC2 = Math.floor(Math.random() * MKOCexport.length);
+    const randomMKOC3 = Math.floor(Math.random() * MKOCmagic.length);
+
 
     if(tselect === 4){
         console.log("hi")
@@ -197,5 +301,62 @@ function tselect(tselect){
         else if  (roll > 0.95 && roll <= 1.0){
             document.getElementById("picked").innerText = tkodajob[9];
         }
+    }
+    if(tselect === 9){
+        const roll = Math.random(Math.floor());
+        if(roll <= 0.35){
+            document.getElementById("picked").innerText = slimemine[0];
+        }
+        else if  (roll > 0.35 && roll <= 0.6){
+            document.getElementById("picked").innerText = slimemine[1];
+        }
+        else if  (roll > 0.6 && roll <= 0.8){
+            document.getElementById("picked").innerText = slimemine[2];
+        }
+        else if  (roll > 0.8 && roll <= 0.95){
+            document.getElementById("picked").innerText = slimemine[3];
+        }
+        else if  (roll > 0.95 && roll <= 1.0){
+            document.getElementById("picked").innerText = slimemine[4];
+        }
+    }
+    if(tselect === 10){
+        const roll = Math.random(Math.floor());
+        if(roll <= 0.5){
+            document.getElementById("picked").innerText = slimerise[0];
+        }
+        else if  (roll > 0.5 && roll <= 0.8){
+            document.getElementById("picked").innerText = slimerise[1];
+        }
+        else if  (roll > 0.8 && roll <= 0.95){
+            document.getElementById("picked").innerText = slimerise[2];
+        }
+        else if  (roll > 0.95 && roll <= 1.0){
+            document.getElementById("picked").innerText = slimerise[3];
+        }
+    }
+    if(tselect === 11){ // bug 1
+        document.getElementById("picked").innerHTML = bug[randombug];
+    }
+    if(tselect === 12){ // bug 2
+        document.getElementById("picked").innerHTML = bug[randombug] + ", " + bug[randombug2];
+    }
+    if(tselect === 13){ // bug 3
+        document.getElementById("picked").innerHTML = bug[randombug] + ", " + bug[randombug2] + ", " + bug[randombug3];
+    }
+    if(tselect === 14){ // bug 4
+        document.getElementById("picked").innerHTML = bug[randombug] + ", " + bug[randombug2] + ", " + bug[randombug3] + ", " + bug[randombug4];
+    }
+    if(tselect === 15){
+        document.getElementById("picked").innerHTML = btqs[randomq];
+    }
+    if(tselect === 16){
+        document.getElementById("picked").innerHTML = btsc[randomslack];
+    }
+    if(tselect === 17){
+        document.getElementById("picked").innerHTML = btrw[randomsrw];
+    }
+    if(tselect === 18){
+        document.getElementById("picked").innerHTML = MKOCarmy[randomMKOC1], MKOCarmy[randomMKOC2], MKOCarmy[randomMKOC3];
     }
 }
