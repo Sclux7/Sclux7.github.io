@@ -357,6 +357,6 @@ function tselect(tselect){
         document.getElementById("picked").innerHTML = btrw[randomsrw];
     }
     if(tselect === 18){
-        document.getElementById("picked").innerHTML = MKOCarmy[randomMKOC1], MKOCarmy[randomMKOC2], MKOCarmy[randomMKOC3];
+        document.getElementById("picked").innerHTML = MKOCarmy[randomMKOC1] + MKOCexport[randomMKOC2] + MKOCmagic[randomMKOC3];
     }
 }
